@@ -27,14 +27,18 @@
             android:id="@+id/imageView6"
             android:layout_width="match_parent"
             android:layout_height="255dp"
-            app:srcCompat="@drawable/onboarding1" />
+            app:srcCompat="@drawable/onboarding1"
+            android:contentDescription="@string/onboarding1"
+            />
 
         <ImageView
             android:id="@+id/imageView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            app:srcCompat="@drawable/slide1" />
+            app:srcCompat="@drawable/slide1"
+            android:contentDescription="@string/onboarding1"
+            />
 
 
         <TextView
@@ -49,5 +53,27 @@
             android:textColor="@color/primaryFontColor"
             android:textSize="24sp"
             android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingStart="50dp"
+            android:paddingEnd="80dp"
+            android:text="@string/onboarding2"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/next"
+            android:textColor="#FFF"
+            android:background="@drawable/shape_of_button"
+            app:backgroundTint="@null"
+            />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

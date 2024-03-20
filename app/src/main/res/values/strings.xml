@@ -8,4 +8,6 @@
     <string name="im_a_new_user">I\'m a new user.</string>
     <string name="unknown">unknown</string>
     <string name="onboarding1">Fastest Payment in the world</string>
+    <string name="onboarding2">Integrate multiple payments methods to help you up the process quickly</string>
+    <string name="next">Next</string>
 </resources>
