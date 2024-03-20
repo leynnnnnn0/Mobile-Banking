@@ -10,4 +10,8 @@
     <string name="onboarding1">Fastest Payment in the world</string>
     <string name="onboarding2">Integrate multiple payments methods to help you up the process quickly</string>
     <string name="next">Next</string>
+    <string name="onboarding3">The most secure platform for customer</string>
+    <string name="onboarding4">Built-in Fingerprint, face recognition and more, keeping you completely safe</string>
+    <string name="onboarding5">Paying for Everything is Easy and Convenient</string>
+
 </resources>
